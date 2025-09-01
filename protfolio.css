@@ -64,9 +64,6 @@ section {
   border-left: 4px solid #007acc;
 }
 
-
-
-
 .sci a {
     display: inline-flex;
     padding: 8px;
@@ -95,3 +92,48 @@ footer {
 .year{
   margin-right:0%;
 }
+
+.btn-sci {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    
+    border: 2px solid #333;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #333;
+    font-size: 16px;
+    color: #1f242d;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.btn:hover{
+    background: transparent;
+    
+    box-shadow: none;
+}
+
+.btn-sci .sci{
+    margin-left: 20px;
+}
+
+.btn-sci .sci a {
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #333;
+    margin: 0 8px;
+    transition: .5s;
+}
+
+.btn-sci .sci a:hover{
+    background: #333;
+    columns: #1f242d;
+    box-shadow: 0 0 10px #333;
+} 
