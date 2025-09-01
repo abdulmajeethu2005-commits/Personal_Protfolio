@@ -1,0 +1,97 @@
+body {
+  font-family: 'Times New Roman','Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 3rem;
+  text-align: center;
+  z-index: 100;
+  visibility: hidden;
+  opacity: 0;
+  animation: show-content 1.5s linear forwards;
+  animation-delay: 1.2s;
+
+}
+
+nav a {
+  margin: 0 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+@keyframes show-content {
+    100%{
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+nav  a:hover{
+    background:black;
+    columns: White;
+    box-shadow: 0 0 10px #252724;
+}
+
+.photo {
+  padding-left:50px ;
+}
+
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+} 
+
+.project {
+  background: #fff;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-left: 4px solid #007acc;
+}
+
+.eduction {
+  background: #fff;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-left: 4px solid #007acc;
+}
+
+
+
+
+.sci a {
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #333;
+    margin: 0 8px;
+    transition: .5s;
+}
+
+.sci a:hover{
+    background: gray;
+    columns: #1f242d;
+    box-shadow: 0 0 10px gray;
+} 
+
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+}
+
+.year{
+  margin-right:0%;
+}
